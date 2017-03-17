@@ -1,7 +1,12 @@
 engines:
   checkstyle:
     enabled: true
-    channel: "beta"
+    channel: "beta"    
+    checks:
+      com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck:
+        enabled: false
+      com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck:
+        enabled: false
   pmd:
     enabled: true
     channel: "beta"
