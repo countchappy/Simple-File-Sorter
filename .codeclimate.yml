@@ -1,9 +1,12 @@
 engines:
-  duplication:
+  checkstyle:
     enabled: true
-    config:
-      languages:
-      - java
+    channel: "beta"
+  pmd:
+    enabled: true
+    channel: "beta"
+  fixme:
+    enabled: true
 ratings:
   paths:
   - "**.java"
