@@ -1,0 +1,9 @@
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - java
+ratings:
+  paths:
+  - "**.java"
